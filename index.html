@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>DrayTek 数据流量监视器</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        table { margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 8px; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>数据流量监视器</h1>
+    <table id="流量表">
+        <thead>
+            <tr>
+                <th>IP 地址</th>
+                <th>发送速率 (kbps)</th>
+                <th>接收速率 (kbps)</th>
+                <th>会话数</th>
+            </tr>
+        </thead>
+        <tbody id="流量数据"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
